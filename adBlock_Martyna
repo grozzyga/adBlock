@@ -1,0 +1,18 @@
+[Adblock Plus 2.0]
+! Do poprawnego działania listy wymagane jest rozszerzenie uBlock Origin.
+!
+! Homepage: 
+! Title: RafLista - Janusz
+! Description: Filtr chroniący
+! Last modified: Fri, 18 Feb 2019, 10:00 UTC+01
+! Version: 2019.2.18.1
+! Expires: 1 days
+! Licencja: CC BY-SA 4.0.
+!
+! Podejrzane i/lub strony połączone z innymi oszustwami
+||4ksport.pl^
+||5k-player.com^
+||6j4cea2ybg.pl^
+||7tools.eu^
+||20pascals.nl^
+||24hoursready.cf^
