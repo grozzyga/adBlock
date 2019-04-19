@@ -466,6 +466,8 @@ zaufanatrzeciastrona.pl##.dolna-ramka:nth-of-type(5)
 ||ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/autoblog/2018/03/bglogo.svg$image
 ||pix2.services.tvn.pl^
 ||selectivv.com^$important
+||std.wpcdn.pl^$script,domain=dobreprogramy.pl
+||std.wpcdn.pl^$script,domain=poczta.o2.pl
 ||www.filmweb.pl/JnMzDJlu7ZpVVgegs7Cod2Eo4dPJImXQp1VoAJnmartyna/tvp/maj/4/FILMWEB_750x300_001_m.html?sasfid=44747&cachebust=1526793835863$subdocument
 ||www.filmweb.pl/adbchk$domain=www.filmweb.pl,important
 ||www.gazeta.pl##.iframe_wrapper
