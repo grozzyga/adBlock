@@ -219,6 +219,7 @@ openlinksys.info##.side-border-left
 pclab.pl###c001
 pclab.pl###tabwrapper
 pl.pinterest.com##.FullPageModal__scroller
+poczta.o2.pl$third-party
 pokazywarka.pl##.rodo-popup
 polecanelaptopy.blogspot.com##.animating.sticky.centered-top-container
 satkurier.pl###midlleContainer
