@@ -2,7 +2,7 @@
 ! Do poprawnego działania listy wymagane jest rozszerzenie uBlock Origin.
 !
 ! Homepage: 
-! Title: RafLista - Andrzejcy
+! Title: RafLista - Andrzej
 ! Last modified: Wed Jan 15 15:00:00 CEST 2020
 ! Version: 2020.1.15.1
 ! Expires: 1 days
