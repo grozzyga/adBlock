@@ -4,8 +4,8 @@
 ! Homepage: 
 ! Title: RafLista - Mariusz
 ! Description: Filtr chroniący
-! Last modified: Wed Jul 24 10:00:00 CEST 2019
-! Version: 2019.7.24.1
+! Last modified: Wed Jan 15 15:00:00 CEST 2020
+! Version: 2020.1.15.1
 ! Expires: 1 days
 ! Licencja: CC BY-SA 4.0.
 !
@@ -108,7 +108,6 @@
 ||www.unamo.com^
 ||yandex.ru^
 ! ====================
-9gag.com##table
 @@/download^$xmlhttprequest,domain=speedtest.net
 @@/hello^$xmlhttprequest,domain=speedtest.net
 @@/ping^$xmlhttprequest,domain=speedtest.net
@@ -118,6 +117,7 @@
 @@||allegroimg.com/s480/$domain=allegro.pl
 @@||anon.groov.pl/flags/*$image,domain=anon.groov.pl
 @@||bet-at-home.com^
+@@||cdn.ziffstatic.com^$script,domain=www.downdetector.pl
 @@||cdnjs.cloudflare.com/ajax/libs/flag-icon-css/*$image,domain=unogs.com
 @@||gemius.pl/gstream.js,important
 @@||get.x-link.pl^
@@ -130,6 +130,9 @@
 @@||std.wpcdn.pl^$script,domain=www.money.pl
 @@||www.bet-at-home.com^
 abload.de##center > table > tbody > tr:nth-of-type(4) > td
+airly.eu##.map-container__onet > .widget-block
+airly.eu##.side-panel__panel
+allegro.pl##._01389e7.dda8fb1
 allegro.pl##.main-wrapper > div:nth-of-type(1) > .f9efb_2RKgm > .f9efb_1wLyG > .f9efb_hmdnp.f9efb_1XhW1
 allegro.pl##section._17557b8._2e710a1:nth-of-type(1)
 antyweb.pl###job-offer
@@ -182,14 +185,16 @@ forum.mediaswiat.pl##body > table > tbody > tr > .bodyline > table
 forum.mediaswiat.pl##body > table > tbody > tr > .bodyline > table > tbody > tr > td
 forum.purepc.pl###ipsLayout_sidebar
 forum.satkurier.pl###ipsLayout_sidebar
+gfycat.com##[src="https://assets.gfycat.com/House_Banners/1456x180/saveyourgifssooper_1456x180.png"]
+inpost.pl##.track--parcel--topbanner
 joemonster.org###pp-bg-overlay
 joemonster.org###pp-opt-in
 joemonster.org##.mejs__overlay-play.mejs__layer.mejs__overlay
 joemonster.org##.show.narrow.podobne
+joemonster.org##.two_lined_title.show.podobne
 joemonster.org##.youtube-html-player
 konkret24.tvn24.pl##.share-container--fixed.share-container
 m.ceneo.pl##.sticky-container
-m.joemonster.org###sas_59491
 minskmaz.com###g-a-s
 minskmaz.com###promo_1
 minskmaz.com##.a-container
@@ -209,6 +214,7 @@ minskmaz.com##.news-right-5.ratio.item
 minskmaz.com##.only-mobile.menu-toggle
 minskmaz.com##.padding-bottom-30.padding-v-20.heading-divider
 minskmaz.com##.ui-to-top
+minskmaz.com##nav
 natemat.pl##.fbinvite-body
 news.softpedia.com##.grid_31:nth-of-type(5)
 news.softpedia.com##.grid_31:nth-of-type(6)
@@ -226,6 +232,7 @@ pclab.pl###c001
 pclab.pl###tabwrapper
 pl.pinterest.com##.FullPageModal__scroller
 poczta.o2.pl##.responsive-image--1.responsive-image
+poczta.o2.pl##promo-panels
 pokazywarka.pl##.rodo-popup
 polecanelaptopy.blogspot.com##.animating.sticky.centered-top-container
 satkurier.pl###midlleContainer
@@ -248,31 +255,15 @@ wiadomosci.wp.pl##._30SROfM > ._1ZVNGs5.hiCifJ8
 wiadomosci.wp.pl##.css-10gq0mz
 wiadomosci.wp.pl##.txYCS2B._2Coc2I_
 wp.pl#?#div.header > div[class^="_"]:-abp-has(button[title^="Ustaw"])
+www-spidersweb-pl.cdn.ampproject.org##.amp-wp-footer
+www-tabletowo-pl.cdn.ampproject.org###re_kk_near_logo
+www-tabletowo-pl.cdn.ampproject.org##.f-w-blk
+www-tabletowo-pl.cdn.ampproject.org##.f-w.amp_widget_below_the_header
+www-tabletowo-pl.cdn.ampproject.org##.rekwpis3story > .srodek
 www.aliexpress.com##.show-history
 www.bankier.pl###boxNewsletterFlyfooterLink
 www.bankier.pl##.underArtVideoAdvAutoplayAfterScroll.underArtVideoAdv.boxAdv > .boxContent
 www.ceneo.pl##.sticky-offer
-www.dobreprogramy.pl###.detection-block
-www.dobreprogramy.pl###orhwjv
-www.dobreprogramy.pl###phContent_TutorialControl_divPlayer
-www.dobreprogramy.pl###rodo-ui > div
-www.dobreprogramy.pl###sidebar
-www.dobreprogramy.pl###slide-menu > div:nth-of-type(3) > div:nth-of-type(1)
-www.dobreprogramy.pl##.PgQtUGz
-www.dobreprogramy.pl##.RGFNWKnOHVV
-www.dobreprogramy.pl##.centerhack
-www.dobreprogramy.pl##.content-image-wrapper
-www.dobreprogramy.pl##.grid-margin-px30-top.series
-www.dobreprogramy.pl##.inYmTmuiRm
-www.dobreprogramy.pl##.m46i5o5
-www.dobreprogramy.pl##.on5qkw0
-www.dobreprogramy.pl##.rkrxz90
-www.dobreprogramy.pl##article > small
-www.dobreprogramy.pl##b:nth-of-type(2) > sub > big > s > sup > dfn > kbd > i > address > div > output > bdi > u > strong
-www.dobreprogramy.pl##header > .share > amp-social-share.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element:nth-of-type(1)
-www.dobreprogramy.pl##header > .share > amp-social-share.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element:nth-of-type(2)
-www.dobreprogramy.pl##ins
-www.dobreprogramy.pl##sub:nth-of-type(2) > dfn > em > i > big > bdi
 www.endomondo.com##.home-job-ad.home-box
 www.filmweb.pl###nassrat_7899558
 www.filmweb.pl###sad_7859648
@@ -293,6 +284,7 @@ www.ghacks.net##.profile-content
 www.google.pl##.fbar
 www.hdtv.com.pl##body > center
 www.instagram.com##._2pnef._cqw45
+www.instalki.pl###right
 www.ip-address.org##.ad-2-336
 www.ip-address.org##.ad-3-728
 www.ip-address.org##.aduns
@@ -310,11 +302,14 @@ www.money.pl##.jCcnIY.sc-1ct0ak5-0
 www.msn.com##.scrolled.head
 www.netflix.com##.billboard-row
 www.netflix.com##.info.message
+www.orange.pl###mapmessage
+www.orange.pl##.opl-msg--info.opl-msg--box.opl-msg
 www.pcformat.pl###slider-track
 www.pcformat.pl##.topbar
 www.pinterest.com##.FullPageModal__scroller
 www.purepc.pl##[href="https://www.komputronik.pl/producer/52/corsair.html"]
 www.purepc.pl##[href^="/red1r.php"]
+www.purepc.pl##p.rtecenter:nth-of-type(3)
 www.rp.pl##.clearfix.col-lg-6
 www.speedtest.pl###facebook
 www.speedtest.pl###meter-news
@@ -360,6 +355,9 @@ www.tabletowo.pl##.sidebar
 www.tabletowo.pl##.top_theme
 www.teleman.pl###footer
 www.teleman.pl##.desc
+www.telepolis.pl##p:nth-of-type(10)
+www.telepolis.pl##p:nth-of-type(13)
+www.telepolis.pl##p:nth-of-type(18)
 www.telix.pl###m6 > .tdh
 www.telix.pl##.ad_cta_button_green.ad_cta_button
 www.telix.pl##.ad_cta_button_orange.ad_cta_button
@@ -466,14 +464,20 @@ zaufanatrzeciastrona.pl##.dolna-ramka:nth-of-type(15)
 zaufanatrzeciastrona.pl##.dolna-ramka:nth-of-type(5)
 ||ad.doubleclick.net/$image
 ||ad.doubleclick.net^
+||adocean.pl^$third-party,important
+||adrecover.com^$script,important
+||adrecover.com^$third-party,important
 ||antyweb.pl/wp-content/themes/antyweb.autentika/i/layout/bg-footer.jpg$image
 ||api.deep.bi^
+||assets.gfycat.com/House_Banners/*0.png$image
 ||client-test-1.disqus.com/count.js$script,important
 ||deep.bi^
+||delivery.adrecover.com^$script,important
 ||doubleclick.net^
 ||duckduckgo.com/assets/onboarding/bathroomguy/teaser-2@2x.png$image
 ||gemius.pl^$domain=www.tvn24.pl
 ||kumma.com^
+||lijjt.comm^$third-party,important
 ||m.joemonster.org/images/mobile/advertPlaceholder.jpg$image
 ||manastick.com^
 ||minskmaz.com/tpl/_microsite/ebit$subdocument
