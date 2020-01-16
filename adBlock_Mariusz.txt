@@ -2,7 +2,7 @@
 ! Do poprawnego działania listy wymagane jest rozszerzenie uBlock Origin.
 !
 ! Homepage: 
-! Title: RafLista - Mariusz
+! Title: RafLista - Martyna
 ! Description: Filtr chroniący
 ! Last modified: Thu Jan 16 11:00:00 CEST 2020
 ! Version: 2020.1.16.1
