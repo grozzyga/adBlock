@@ -2,11 +2,9 @@
 ! Do poprawnego działania listy wymagane jest rozszerzenie uBlock Origin.
 !
 ! Homepage: 
-! Title: 
+! Title: RafLista - Whitelist
 ! Description: Filtr chroniący
 ! Last modified: Wed Jan 15 15:00:00 CEST 2020
 ! Version: 2020.1.15.1
 ! Expires: 1 days
 ! Licencja: CC BY-SA 4.0.
-!
-! Podejrzane i/lub strony połączone z innymi oszustwami
