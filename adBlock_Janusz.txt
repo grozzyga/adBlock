@@ -4,8 +4,8 @@
 ! Homepage: 
 ! Title: RafLista - Janusz
 ! Description: Filtr chroniący
-! Last modified: Wed Jan 15 15:00:00 CEST 2020
-! Version: 2020.1.15.1
+! Last modified: Thu Jan 16 11:00:00 CEST 2020
+! Version: 2020.1.16.1
 ! Expires: 1 days
 ! Licencja: CC BY-SA 4.0.
 !
@@ -132,9 +132,6 @@
 abload.de##center > table > tbody > tr:nth-of-type(4) > td
 airly.eu##.map-container__onet > .widget-block
 airly.eu##.side-panel__panel
-allegro.pl##._01389e7.dda8fb1
-allegro.pl##.main-wrapper > div:nth-of-type(1) > .f9efb_2RKgm > .f9efb_1wLyG > .f9efb_hmdnp.f9efb_1XhW1
-allegro.pl##section._17557b8._2e710a1:nth-of-type(1)
 antyweb.pl###job-offer
 antyweb.pl##.box-links-bottom
 antyweb.pl##.group.art-cover
