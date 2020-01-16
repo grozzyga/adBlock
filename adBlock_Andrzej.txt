@@ -131,6 +131,9 @@
 abload.de##center > table > tbody > tr:nth-of-type(4) > td
 airly.eu##.map-container__onet > .widget-block
 airly.eu##.side-panel__panel
+allegro.pl##._01389e7.dda8fb1
+allegro.pl##.main-wrapper > div:nth-of-type(1) > .f9efb_2RKgm > .f9efb_1wLyG > .f9efb_hmdnp.f9efb_1XhW1
+allegro.pl##section._17557b8._2e710a1:nth-of-type(1)
 antyweb.pl###job-offer
 antyweb.pl##.box-links-bottom
 antyweb.pl##.group.art-cover
