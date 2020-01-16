@@ -1,4 +1,4 @@
-ock Plus 2.0]
+[Adblock Plus 2.0]
 ! Do poprawnego działania listy wymagane jest rozszerzenie uBlock Origin.
 !
 ! Homepage: 
