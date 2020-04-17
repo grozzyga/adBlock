@@ -530,7 +530,6 @@ zaufanatrzeciastrona.pl##.dolna-ramka:nth-of-type(5)
 ||query.yahooapis.com^$domain=tvn24.pl,important
 ||selectivv.com^$important
 ||socialmedia-statistics.tvn24.pl^
-||std.wpcdn.pl^$script
 ||testwptest.xyz^
 ||wp.pl^$third-party,domain=www.dobreprogramy.pl
 ||wpimg.pl^$image,domain=www.dobreprogramy.pl
