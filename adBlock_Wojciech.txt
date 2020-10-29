@@ -1,0 +1,562 @@
+[Adblock Plus 2.0]
+! Do poprawnego działania listy wymagane jest rozszerzenie uBlock Origin.
+!
+! Homepage: 
+! Title: RafLista - Wojciech
+! Description: Filtr chroniący
+! Last modified: Thu Apr 17 11:00:00 CEST 2020
+! Version: 2020.4.17.1
+! Expires: 1 days
+! Licencja: CC BY-SA 4.0.
+!
+! ====================
+! 06.05.2018, Cloud Technologies
+||api.bonnier.nsaudience.pl^
+||api.behavioralengine.com^
+||api.spoldzielnia.nsaudience.pl^
+||behavioralengine.com^
+||behavioralmailing.com^
+||cdn.behavioralengine.com^
+||cloudtechnologies.pl^
+||manastick.com^
+||nsaudience.pl^
+||onaudience.com^
+||pixel.onaudience.com^
+||pretargeting.onaudience.com^
+||unblock.onaudience.com^
+||x.onaudience.com^
+! ====================
+! 28.06.2019, Collect user behavior session-replay scripts
+||s.cyberrescue.me^
+||cyberrescue.me^
+||augur.io^
+||c.lytics.io^
+||cdn.augur.io^
+||cdn.mouseflow.com^
+||cdn.userreplay.net^
+||cdn4.forter.com^
+||clickfuse.com^
+||clicktale.net^
+||connect.islay.tech^
+||d2oh4tlt9mrke9.cloudfront.net^
+||decibelinsight.net^
+||eyequant.com^
+||forter.com^
+||ftbpro.com^
+||fueldeck.com^
+||fugetech.com^
+||fullstory.com^
+||funneld.com^
+||funstage.com^
+||fuse-data.com^
+||ga.getresponse.com^
+||getjaco.com^
+||getresponse.com^
+||hotjar.com^
+||hs-analytics.net^
+||hscta.net^
+||hsstatic.net^
+||inspectlet.com^
+||islay.tech^
+||js.hs-analytics.net^
+||js.hscta.net^
+||logrocket.com^
+||luckyorange.com^
+||lytics.io^
+||mouseflow.com^
+||mtproxy.yandex.net^
+||ntvk1.ru^
+||p1.ntvk1.ru^
+||props.id^
+||quantummetric.com^
+||quartic.pl^
+||rec.quartic.pl^
+||rec.smartlook.com^
+||rs.fullstory.com^
+||salemove.com^
+||selectivv.com^
+||sessioncam.com^
+||smartctr.com^
+||smarterhq.io^
+||smarterremarketer.net^
+||smartlook.com^
+||smartology.co^
+||smartracker.net^
+||smartzonessva.com^
+||srv.clickfuse.com^
+||st-a.props.id^
+||static.hotjar.com^
+||statsnet.net^
+||tags.tiqcdn.com^
+||tiqcdn.com^
+||unamo.com^
+||usabilitytools.com^
+||userlook.com^
+||userneeds.dk^
+||useronlinecounter.com^
+||userreplay.net^
+||userreport.com^
+||users-api.com^
+||userzoom.com^
+||uxcam.com^
+||vwo.com^
+||www.appsee.com^
+||www.eyequant.com^
+||www.fullstory.com^
+||www.hotjar.com^
+||www.smartlook.com^
+||www.unamo.com^
+||yandex.ru^
+! ====================
+||127.0.^$third-party,important
+||localhost^$third-party,important
+||[::1]^$third-party,important
+||10.0.^$third-party,important
+||192.168.^$third-party,important
+9gag.com###stream-1 > div > article:nth-of-type(2)
+9gag.com###stream-2 > div > article:nth-of-type(4)
+9gag.com##table
+@@/download^$xmlhttprequest,domain=speedtest.net
+@@/hello^$xmlhttprequest,domain=speedtest.net
+@@/ping^$xmlhttprequest,domain=speedtest.net
+@@/upload^$xmlhttprequest,domain=speedtest.net
+@@antyweb.pl/wp-content/uploads/20*/*/*1920x1080*.jpg
+@@||ae01.alicdn.com^
+@@||allegroimg.com/s480/$domain=allegro.pl
+@@||anon.groov.pl/flags/*$image,domain=anon.groov.pl
+@@||bet-at-home.com^
+@@||cdn.ziffstatic.com^$script,domain=www.downdetector.pl
+@@||cdnjs.cloudflare.com/ajax/libs/flag-icon-css/*$image,domain=unogs.com
+@@||gemius.pl/gstream.js,important
+@@||get.x-link.pl^
+@@||maint.bet-at-home.com^
+@@||phonearena.com^
+@@||pro.hit.gemius.pl^$domain=vod.tvp.pl
+@@||prodxnews1blob.blob.core.windows.net^$script
+@@||r.dcs.redcdn.pl^$domain=sejm.pl
+@@||std.wpcdn.pl^$script,domain=autokult.pl
+@@||std.wpcdn.pl^$script,domain=open.fm
+@@||std.wpcdn.pl^$script,domain=www.money.pl
+@@||www.bet-at-home.com^
+abload.de##center > table > tbody > tr:nth-of-type(4) > td
+airly.eu##.map-container__onet > .widget-block
+airly.eu##.side-panel__panel
+allegro.pl##._01389e7.dda8fb1
+allegro.pl##._3e3a8_1yP0d._3e3a8_ObRq7
+allegro.pl##.main-wrapper > div:nth-of-type(1) > .f9efb_2RKgm > .f9efb_1wLyG > .f9efb_hmdnp.f9efb_1XhW1
+allegro.pl##section._17557b8._2e710a1:nth-of-type(1)
+antyweb.pl###job-offer
+antyweb.pl##.box-links-bottom
+antyweb.pl##.group.art-cover
+antyweb.pl##.group.box-team
+antyweb.pl##.group.l-footer
+antyweb.pl##.group.l-header
+antyweb.pl##.group.l-page-article-review.age-article.l-p.l-page > .group.no-margin.columns-wrapper:nth-of-type(1)
+antyweb.pl##.group.l-page-article-review.age-article.l-p.l-page:nth-of-type(2)
+antyweb.pl##.group.l-page-article-review.age-article.l-p.l-page:nth-of-type(4)
+antyweb.pl##.group.l-page-article-review.age-article.l-p.l-page:nth-of-type(4) > .group.no-margin.columns-wrapper:nth-of-type(1)
+antyweb.pl##.group.l-page-article-review.age-article.l-p.l-page:nth-of-type(4) > .group.no-margin.columns-wrapper:nth-of-type(2)
+antyweb.pl##.group.layout > .l-page-article-normal.group.l-page-article.l-page > .group.no-margin.columns-wrapper:nth-of-type(3) > .group.no-margin.columns-wrapper:nth-of-type(3)
+antyweb.pl##.l-page-article-normal.group.l-page-article.l-page:nth-of-type(3)
+antyweb.pl##.l-page-article-normal.group.l-page-article.l-page:nth-of-type(3) > .group.no-margin.columns-wrapper:nth-of-type(1)
+antyweb.pl##.l-page-article-normal.group.l-page-article.l-page:nth-of-type(3) > .group.no-margin.columns-wrapper:nth-of-type(3)
+antyweb.pl##div:nth-of-type(2) > .l-page-article-normal.group.l-page-article.l-page
+archive.org###donate_banner
+beta.speedtest.net##.u-align-center.u-c.header-flex-item
+bezprawnik.pl###header
+boardgamesonline.net###videoContainer
+boardgamesonline.net##.bottom-line
+boardgamesonline.net##.brown
+boardgamesonline.net##.footer
+boardgamesonline.net##.footer-bottom
+boardgamesonline.net##.other-games
+coub.com##.-fill.-hand.viewer__click.viewer__hand
+coub.com##.-fill.viewer__suggests
+coub.com##.-ui-state-suggests.-state-paused.viewer--v2.viewer > .contents > .-no-select.viewer__controls__container > .-fill.viewer__suggests > .viewer__suggests-stub
+coub.com##.-ui-state-suggests.-state-paused.x2.viewer--v2.viewer > .contents > .-no-select.viewer__controls__container > .-fill.viewer__suggests > .viewer__suggests-stub
+coub.com##.active.timeline-banner.coub
+coub.com##.find-friends-banner--facebook.find-friends-banner.box--banner
+coub.com##.tablet-mobile-hidden.timeline-right-block
+coub.com##.timeline-banner.coub
+coub.com##.timeline-right-block
+coub.com##.viewer__suggests-stub
+disqus.com###container-main > .is-footer.hidden-sidebar.login-overlay__wrapper > .login-overlay__transparency
+disqus.com###explore-overlay
+duckduckgo.com##.footer
+duckduckgo.com##.header__label.showcase.header--aside__item
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.js-onboarding-ed-slide-1.js-onboarding-ed-slide.onboarding-ed__slide-1.onboarding-ed__slide
+duckduckgo.com##.js-onboarding-ed-slide-2.js-onboarding-ed-slide.onboarding-ed__slide-2.onboarding-ed__slide
+duckduckgo.com##.js-onboarding-ed-slide-3.js-onboarding-ed-slide.onboarding-ed__slide-3.onboarding-ed__slide
+duckduckgo.com##.js-onboarding-ed-slide-4.js-onboarding-ed-slide.onboarding-ed__slide-4.onboarding-ed__slide
+duckduckgo.com##.js-onboarding-ed-teaser.onboarding-ed__arrow-teaser
+duckduckgo.com##.js-onboarding-ed.onboarding-ed
+duckduckgo.com##.js-showcase-twitter.header--aside__twitter
+duckduckgo.com##.logo-wrap--home
+duckduckgo.com##.social.header--aside__item
+duckduckgo.com##.tag-home__item
+duckduckgo.com##.tag-home__wrapper
+epidemia-koronawirus.pl##.bd-footerarea-1
+epidemia-koronawirus.pl##.pulse.bd-content-element.bd-animation-2.animated.hidden-xs.hidden-sm.hidden-md.bd-textblock-10
+fakty.tvn24.pl##.tvn24go-banner
+filecrypt.cc##.bums > div
+forum.mediaswiat.pl##body > table > tbody > tr > .bodyline
+forum.mediaswiat.pl##body > table > tbody > tr > .bodyline > table
+forum.mediaswiat.pl##body > table > tbody > tr > .bodyline > table > tbody > tr > td
+forum.purepc.pl###ipsLayout_sidebar
+forum.satkurier.pl###ipsLayout_sidebar
+gfycat.com##[src="https://assets.gfycat.com/House_Banners/1456x180/saveyourgifssooper_1456x180.png"]
+inpost.pl##.track--parcel--topbanner
+joemonster.org###pp-bg-overlay
+joemonster.org###pp-opt-in
+joemonster.org##.mejs__overlay-play.mejs__layer.mejs__overlay
+joemonster.org##.show.narrow.podobne
+joemonster.org##.two_lined_title.show.podobne
+joemonster.org##.youtube-html-player
+konkret24.tvn24.pl##.share-container--fixed.share-container
+m.ceneo.pl##.sticky-container
+m.joemonster.org###sas_59491
+minskmaz.com###g-a-s
+minskmaz.com###promo_1
+minskmaz.com##.a-container
+minskmaz.com##.a-dis-1300.a-dis
+minskmaz.com##.a-dis-1500.a-dis
+minskmaz.com##.a-dis-700.a-dis
+minskmaz.com##.count-3
+minskmaz.com##.g-a-s
+minskmaz.com##.icon-default.fa-facebook.icon-circle.icon
+minskmaz.com##.left-icons
+minskmaz.com##.main > div:nth-of-type(1)
+minskmaz.com##.news-right-1.ratio.item
+minskmaz.com##.news-right-1.ratio.item > .shadow
+minskmaz.com##.news-right-2.ratio.item
+minskmaz.com##.news-right-3.ratio.item
+minskmaz.com##.news-right-4.ratio.item
+minskmaz.com##.news-right-5.ratio.item
+minskmaz.com##.only-mobile.menu-toggle
+minskmaz.com##.padding-bottom-30.padding-v-20.heading-divider
+minskmaz.com##.ui-to-top
+minskmaz.com##nav
+natemat.pl##.fbinvite-body
+news.softpedia.com##.grid_31:nth-of-type(5)
+news.softpedia.com##.grid_31:nth-of-type(6)
+news.softpedia.com##div.bottombar_head.grid_47:nth-of-type(1)
+news.softpedia.com##div.bottombar_head.grid_47:nth-of-type(3)
+news.softpedia.com##div.bottombar_head.grid_47:nth-of-type(7)
+news.softpedia.com##div.grid_47:nth-of-type(2)
+news.softpedia.com##div.grid_47:nth-of-type(4)
+news.softpedia.com##div.grid_47:nth-of-type(8)
+niebezpiecznik.pl###main > div:nth-of-type(2)
+niebezpiecznik.pl###page_wrap > div:nth-of-type(3)
+niebezpiecznik.pl##.fb-page
+openlinksys.info##.side-border-left
+pclab.pl###c001
+pclab.pl###tabwrapper
+pl.pinterest.com##.FullPageModal__scroller
+poczta.o2.pl##.responsive-image--1.responsive-image
+poczta.o2.pl##promo-panels
+pokazywarka.pl##.rodo-popup
+polecanelaptopy.blogspot.com##.animating.sticky.centered-top-container
+satkurier.pl###midlleContainer
+satkurier.pl###rightContainer
+sekurak.pl##.single_share
+sessioncam.recorder.js$third-party,importat
+sport.tvp.pl##.doubleboard.a-ocean
+streamable.com##.bottombanner
+streamable.com##.stickypush
+streamable.com##.stm-ad-player
+streamable.com##.topbanner
+support.microsoft.com###skylight-entry-chrome
+tablica-rejestracyjna.pl###fbutton-container
+tech.wp.pl##.ex8x9pt
+twitter.com##.r-184en5c.r-ipm5af.r-zchlnj.r-u8s1d.r-1d2f490
+twojememy.pl##.essb_mailform_content
+vod.tvp.pl##.col-sm-9.col-xs-12 > .social--media > .text--behave.social
+wiadomosci.gazeta.pl##.quizy
+wiadomosci.tvp.pl##.section-weather.section
+wiadomosci.wp.pl##.ZTudHEy.B0Inlt_
+wiadomosci.wp.pl##._2CMjfVc
+wiadomosci.wp.pl##._30SROfM > ._1ZVNGs5.hiCifJ8
+wiadomosci.wp.pl##.css-10gq0mz
+wiadomosci.wp.pl##.txYCS2B._2Coc2I_
+wp.pl#?#div.header > div[class^="_"]:-abp-has(button[title^="Ustaw"])
+www-spidersweb-pl.cdn.ampproject.org##.amp-wp-footer
+www-tabletowo-pl.cdn.ampproject.org###re_kk_near_logo
+www-tabletowo-pl.cdn.ampproject.org##.f-w-blk
+www-tabletowo-pl.cdn.ampproject.org##.f-w.amp_widget_below_the_header
+www-tabletowo-pl.cdn.ampproject.org##.rekwpis3story > .srodek
+www.bankier.pl###boxNewsletterFlyfooterLink
+www.bankier.pl##.underArtVideoAdvAutoplayAfterScroll.underArtVideoAdv.boxAdv > .boxContent
+www.ceneo.pl##.sticky-offer
+www.dobreprogramy.pl##.backToWpButton__text
+www.dobreprogramy.pl##.backToWp__button
+www.endomondo.com##.home-job-ad.home-box
+www.filmweb.pl###nassrat_7899558
+www.filmweb.pl###sad_7859648
+www.filmweb.pl###sad_7879477
+www.filmweb.pl###sas_44748
+www.filmweb.pl###whereToWatch
+www.filmweb.pl##.FacebookLoginButton.facebookLoginButton
+www.filmweb.pl##.IRI.rodo__overlay.boardsWrapper
+www.filmweb.pl##.billboard-content
+www.filmweb.pl##.fb-share-button
+www.filmweb.pl##.floatingFilmActionBox__button--visible.floatingFilmActionBox__button
+www.filmweb.pl##.ja3a7a2f6650c00891ea5e10a4473ef35
+www.filmweb.pl##.rodoBoard
+www.ghacks.net###post-author
+www.ghacks.net###sidebar
+www.ghacks.net##.asyyaqs3sno0
+www.ghacks.net##.ghacks-ad-loaded > .show-sm-down
+www.ghacks.net##.mt--40.pt--40.border--top--gray:nth-of-type(3)
+www.ghacks.net##.profile-content
+www.google.pl##.fbar
+www.hdtv.com.pl##body > center
+www.instagram.com##._2pnef._cqw45
+www.instalki.pl###right
+www.ip-address.org##.ad-2-336
+www.ip-address.org##.ad-3-728
+www.ip-address.org##.aduns
+www.ip-address.org##.aduns2
+www.ip-address.org##.track:nth-of-type(2)
+www.ip-address.org##td:nth-of-type(2)
+www.ip-tracker.org##.lookup-ad
+www.liveleak.com##.vjs-sharing-overlay
+www.mgsm.pl##.is-stuck.is-at-top.sticky.text-center.show-for-large.columns.large-12 > small
+www.mgsm.pl##section.row > .columns.medium-12.large-12 > div
+www.money.pl##.bPCCHF.s0eabb-0
+www.money.pl##.cnuatr.sc-11b5sl5-2
+www.money.pl##.fmOIUJ.sc-1sqaacn-0
+www.money.pl##.jCcnIY.sc-1ct0ak5-0
+www.msn.com##.scrolled.head
+www.netflix.com##.billboard-row
+www.netflix.com##.info.message
+www.orange.pl###mapmessage
+www.orange.pl##.opl-msg--info.opl-msg--box.opl-msg
+www.pcformat.pl###slider-track
+www.pcformat.pl##.topbar
+www.pinterest.com##.FullPageModal__scroller
+www.purepc.pl##[href="https://www.komputronik.pl/producer/52/corsair.html"]
+www.purepc.pl##[href^="/red1r.php"]
+www.purepc.pl##p.rtecenter:nth-of-type(3)
+www.rp.pl##.clearfix.col-lg-6
+www.speedtest.pl###facebook
+www.speedtest.pl###meter-news
+www.speedtest.pl##.ba3
+www.speedtest.pl##.ha2
+www.speedtest.pl##.ha5
+www.speedtest.pl##.hrc
+www.speedtest.pl##.tools
+www.speedtest.pl##a[href="http://www.przyspiesz.pl/p/676"]
+www.spidersweb.pl###footer-new
+www.spidersweb.pl###footer-new > .row
+www.spidersweb.pl###header
+www.spidersweb.pl###joindiscussion-1 > .font25-size.border.title
+www.spidersweb.pl###single_2 > .row > .columns.large-offset-1.large-11
+www.spidersweb.pl###single_3 > .row > .columns.large-offset-1.large-11
+www.spidersweb.pl##.closed.togglefooter
+www.spidersweb.pl##.columns.large-offset-1.large-8 > .row > .columns.large-12
+www.spidersweb.pl##.entry-slider-wrapper
+www.spidersweb.pl##.font25-size.border.title
+www.spidersweb.pl##.havetoread.show-for-medium
+www.spidersweb.pl##.header-inner
+www.spidersweb.pl##.hide-for-large.collapse.row.instarow > .small-12.columns > .headline-line
+www.spidersweb.pl##.hide-for-large.margin-bottom10.entry-slider > .row > .columns.small-12
+www.spidersweb.pl##.hide-for-large.text-center.columns.small-12
+www.spidersweb.pl##.insta-slider
+www.spidersweb.pl##.medium-uncollapse.small-collapse.align-center.hide-for-large.row > .show-for-medium-only.text-center.columns.small-12
+www.spidersweb.pl##.row:nth-of-type(3) > .text-center.columns.large-12 > .scrollto.czytajkolejny
+www.spidersweb.pl##.row:nth-of-type(4) > .text-center.columns.large-12 > .scrollto.czytajkolejny
+www.spidersweb.pl##footer
+www.tabletowo.pl###custom_html-2 > .title
+www.tabletowo.pl###dl-menu
+www.tabletowo.pl###rh-komentarze
+www.tabletowo.pl###topcontrol
+www.tabletowo.pl###wpsm-title-5635435reter
+www.tabletowo.pl##.big-image
+www.tabletowo.pl##.clearfix.header-top
+www.tabletowo.pl##.clearfix.header_six_style.logo-section
+www.tabletowo.pl##.dark_style.main-nav
+www.tabletowo.pl##.fader
+www.tabletowo.pl##.inner
+www.tabletowo.pl##.megatop_mediad.mediad
+www.tabletowo.pl##.pnwuen
+www.tabletowo.pl##.sidebar
+www.tabletowo.pl##.top_theme
+www.teleman.pl###footer
+www.teleman.pl##.desc
+www.telepolis.pl##p:nth-of-type(10)
+www.telepolis.pl##p:nth-of-type(13)
+www.telepolis.pl##p:nth-of-type(18)
+www.telix.pl###m6 > .tdh
+www.telix.pl##.ad_cta_button_green.ad_cta_button
+www.telix.pl##.ad_cta_button_orange.ad_cta_button
+www.telix.pl##.all-services
+www.telix.pl##.fusion-sidebar-inner-content
+www.telix.pl##.fusion-social-links-footer
+www.telix.pl##.pea_cook_more_info_popover_inner
+www.telix.pl##.share-box.fusion-single-sharing-box.fusion-sharing-box
+www.telix.pl##.tdhe > tbody > tr > td
+www.telix.pl##.the_champ_error:nth-of-type(1)
+www.telix.pl##.the_champ_error:nth-of-type(2)
+www.telix.pl##a[href="https://www.telix.pl/linkout/911796"]
+www.telix.pl##body > div:nth-of-type(2) > table:nth-of-type(1)
+www.telix.pl##body > div:nth-of-type(2) > table:nth-of-type(2) > tbody > tr > td:nth-of-type(1)
+www.telix.pl##body > div:nth-of-type(2) > table:nth-of-type(2) > tbody > tr > td:nth-of-type(2)
+www.telix.pl##body > div:nth-of-type(2) > table:nth-of-type(4) > tbody > tr
+www.telix.pl##div:nth-of-type(2) > form:nth-of-type(1) > table > tbody > tr > td > table
+www.telix.pl##form:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr > td:nth-of-type(1)
+www.telix.pl##form:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr > td:nth-of-type(2)
+www.telix.pl##form:nth-of-type(2) > table > tbody > tr > td > table > tbody > tr > td:nth-of-type(3)
+www.telko.in##.detail-top-banner.custom-html > div > p
+www.win-raid.com###xoborAdSeiteEl
+www.wirtualnemedia.pl###box-share > ul
+www.wirtualnemedia.pl###box_adv_tv
+www.wirtualnemedia.pl###box_in_topic > .header_blue
+www.wirtualnemedia.pl###box_in_topic > ul
+www.wirtualnemedia.pl###box_job_offers_carousel > .header_grey5
+www.wirtualnemedia.pl###box_job_offers_carousel > div
+www.wirtualnemedia.pl###box_job_offers_carousel > div > ul
+www.wirtualnemedia.pl###box_jobs
+www.wirtualnemedia.pl###box_most_read
+www.wirtualnemedia.pl###box_news_category
+www.wirtualnemedia.pl###box_news_category > .header_grey5
+www.wirtualnemedia.pl###box_opinions
+www.wirtualnemedia.pl###box_recent_news
+www.wirtualnemedia.pl###menu_main > .dropdown-menu
+www.wirtualnemedia.pl###menu_top > .dropdown-menu
+www.wirtualnemedia.pl###swim_box
+www.wirtualnemedia.pl##.clearfix.social
+www.wirtualnemedia.pl##.extra_news
+www.wirtualnemedia.pl##.jobs
+www.wirtualnemedia.pl##.more-offers
+www.wirtualnemedia.pl##.row > .header
+www.wykop.pl###rightFooterBox
+www.wykop.pl##.actions.elements.row
+www.wykop.pl##.ajax.mikro.button
+www.wykop.pl##.fa-minus.fa
+www.wykop.pl##.fa-plus.fa
+www.youtube.com###old-browser-alert
+www.youtube.com###watch7-content > span:nth-of-type(1)
+www.youtube.com##.hats-categorical-style-vertical
+www.youtube.com##.live-chat-expander.yt-uix-expander
+www.youtube.com##.mc_A
+www.youtube.com##.opened
+wyborcza.pl##.sidebar.grid-col-1-4.article-extra
+youtube.com###ma-cin-panel
+youtube.com###offer-module > .ytd-watch.style-scope
+youtube.com###watch-action-panels
+youtube.com##.__noscriptPlaceholder__1
+youtube.com##.annotation-type-text.annotation
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(3)
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(5)
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(7)
+youtube.com##.annotation-type-text.annotation-speech-shape.annotation-shape
+youtube.com##.annotation.iv-branding
+youtube.com##.annotation.iv-promo
+youtube.com##.branding-img-container
+youtube.com##.html5-endscreen
+youtube.com##.html5-endscreen-content
+youtube.com##.iv-drawer
+youtube.com##.iv-drawer-content
+youtube.com##.iv-drawer-teaser-text
+youtube.com##.iv-promo-close
+youtube.com##.iv-promo-contents
+youtube.com##.iv-promo-txt.iv-click-target
+youtube.com##.iv-promo-video
+youtube.com##.subscribecard-endscreen
+youtube.com##.video-annotations
+youtube.com##.videowall-endscreen
+youtube.com##.yt-alert.yt-alert-default.yt-alert-warn
+youtube.com##.yt-uix-button.yt-uix-button-size-small.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.addto-button.video-actions.spf-nolink.hide-until-delayloaded.addto-watch-later-button-sign-in.yt-uix-tooltip
+youtube.com##.ytp-button.ytp-button-dislike
+youtube.com##.ytp-button.ytp-button-like
+youtube.com##.ytp-button.ytp-button-share
+youtube.com##.ytp-button.ytp-cards-button
+youtube.com##.ytp-button.ytp-share-button
+youtube.com##.ytp-cards-button-icon-default
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-cards-teaser-text
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-endscreen-next.ytp-button
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
+youtube.com##.ytp-suggestion-set.ytp-upnext
+youtube.com##.ytp-title-channel
+youtube.com##.ytp-watch-later-button.ytp-button
+youtube.com##BUTTON[title="W tym filmie"]
+youtube.com##DIV.iv-promo-img.iv-click-target
+zaufanatrzeciastrona.pl###rab1
+zaufanatrzeciastrona.pl###sponsor3
+zaufanatrzeciastrona.pl##.dolna-ramka:nth-of-type(15)
+zaufanatrzeciastrona.pl##.dolna-ramka:nth-of-type(5)
+||ad.doubleclick.net/$image
+||ad.doubleclick.net^
+||adocean.pl^$third-party,important
+||adrecover.com^$script,important
+||adrecover.com^$third-party,important
+||antyweb.pl/wp-content/themes/antyweb.autentika/i/layout/bg-footer.jpg$image
+||api.deep.bi^
+||arbo.hit.gemius.pl^$domain=www.wykop.pl,important
+||assets.gfycat.com/House_Banners/*0.png$image
+||client-test-1.disqus.com/count.js$script,important
+||deep.bi^
+||delivery.adrecover.com^$script,important
+||doubleclick.net^
+||duckduckgo.com/assets/onboarding/bathroomguy/teaser-2@2x.png$image
+||facebook.net^$domain=fakty.tvn24.pl,important
+||fbcdn.net^$domain=fakty.tvn24.pl,important
+||flourish.rocks^
+||flourish.studio^
+||gemius.pl^$domain=www.tvn24.pl
+||kumma.com^
+||lijjt.comm^$third-party,important
+||m.joemonster.org/images/mobile/advertPlaceholder.jpg$image
+||manastick.com^
+||minskmaz.com/tpl/_microsite/ebit$subdocument
+||minskmaz.com/tpl2/img/fatfooter.png$image
+||mobiclean.xyz^$important
+||net.geo.opera.com^
+||niebezpiecznik.pl/bs1710172.png$image
+||niebezpiecznik.pl/wp-content/uploads/2018/08/aruba1809.png$image
+||niebezpiecznik.pl/wp-content/uploads/2020/04/u2fphishing.png$image
+||ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/autoblog/2018/03/bglogo.svg$image
+||pilot.wp.pl/wylaczenie-blokady-reklam^
+||pilot.wp.pl/wylaczenie-blokady-reklam^$popup
+||pix2.services.tvn.pl^
+||pushpushgo.com^$script
+||query.yahooapis.com^$domain=tvn24.pl,important
+||selectivv.com^$important
+||socialmedia-statistics.tvn24.pl^
+||testwptest.xyz^
+||wp.pl^$third-party,domain=www.dobreprogramy.pl
+||wpimg.pl^$image,domain=www.dobreprogramy.pl
+||www.filmweb.pl/*1010x200*
+||www.filmweb.pl/*300x600*
+||www.filmweb.pl/*750x300*
+||www.filmweb.pl/*980x200*
+||www.filmweb.pl/*Partner_ID*
+||www.filmweb.pl/*Tapeta_filmweb*
+||www.filmweb.pl/*_skin*
+||www.filmweb.pl/*click?*
+||www.filmweb.pl/*mediaexpert*
+||www.filmweb.pl/*nintendo*
+||www.filmweb.pl/*nowe_horyzonty*
+||www.filmweb.pl/*nowosc*
+||www.filmweb.pl/*samsung*
+||www.filmweb.pl/*tapeta-filmweb*
+||www.filmweb.pl/*utm_campaign*
+||www.filmweb.pl/*utm_content*
+||www.filmweb.pl/*utm_medium*
+||www.filmweb.pl/*utm_source*
+||www.filmweb.pl/*utm_term*
+||www.gazeta.pl##.iframe_wrapper
+||www.gazeta.tv/plej$subdocument
+||www.gazeta.tv/plej/19,158949,22180731,video.html?embed=1&viewSource=boxvideonews&autoplay=1&noLogo=1&skin=hp+layer&showSeries=false&title=false$subdocument
+||www.gstatic.com/recaptcha/*$domain=www.wykop.pl,important
+||www.rfbenchmark.pl/wp-content/plugins/knews/images/unpix.gif$important
+||www.speedtest.pl/files/tmobile/speedtest_tapeta.jpg$image
+||www.telix.pl/i3/header_bar1.png$image
+||www.telix.pl/images/banners/*$image
