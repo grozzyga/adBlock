@@ -4,7 +4,7 @@
 ! Homepage: 
 ! Title: RafLista - Whitelist
 ! Description: Filtr chroniący
-! Last modified: Wed Jan 15 15:00:00 CEST 2020
-! Version: 2020.1.15.1
+! Last modified: Sat Nov 17 13:00:00 CEST 2021
+! Version: 2021.11.20.1
 ! Expires: 1 days
 ! Licencja: CC BY-SA 4.0.
