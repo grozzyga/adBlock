@@ -4,8 +4,8 @@
 ! Homepage: 
 ! Title: RafLista
 ! Description: Filtr chroniący
-! Last modified: Sat Nov 17 13:00:00 CEST 2021
-! Version: 2021.11.20.1
+! Last modified: Mon Nov 20 13:00:00 CEST 2023
+! Version: 2023.11.20
 ! Expires: 1 days
 ! Licencja: CC BY-SA 4.0.
 !
@@ -106,6 +106,65 @@
 ||www.hotjar.com^
 ||www.smartlook.com^
 ||www.unamo.com^
+! ====================
+! 20.11.2023, YouTube
+youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+youtube.com###ma-cin-panel
+youtube.com###masthead-positioner-height-offset
+youtube.com###offer-module > .ytd-watch.style-scope
+youtube.com###old-browser-alert
+youtube.com###subscribe-button > .ytd-watch-metadata.style-scope
+youtube.com###watch-action-panels
+youtube.com###watch7-content > span:nth-of-type(1)
+youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##.__noscriptPlaceholder__1
+youtube.com##.annotation-type-text.annotation
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(3)
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(5)
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(7)
+youtube.com##.annotation-type-text.annotation-speech-shape.annotation-shape
+youtube.com##.annotation.iv-branding
+youtube.com##.annotation.iv-promo
+youtube.com##.branding-img-container
+youtube.com##.hats-categorical-style-vertical
+youtube.com##.html5-endscreen
+youtube.com##.html5-endscreen-content
+youtube.com##.iv-drawer
+youtube.com##.iv-drawer-content
+youtube.com##.iv-drawer-teaser-text
+youtube.com##.iv-promo
+youtube.com##.iv-promo-close
+youtube.com##.iv-promo-contents
+youtube.com##.iv-promo-txt.iv-click-target
+youtube.com##.iv-promo-video
+youtube.com##.live-chat-expander.yt-uix-expander
+youtube.com##.mc_A
+youtube.com##.opened
+youtube.com##.subscribecard-endscreen
+youtube.com##.videowall-endscreen
+youtube.com##.yt-alert.yt-alert-default.yt-alert-warn
+youtube.com##.yt-live-chat-renderer.style-scope > .yt-reaction-control-panel-overlay-view-model.style-scope
+youtube.com##.ytd-rich-section-renderer.style-scope > .ytd-rich-shelf-renderer.style-scope
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-cards-teaser-text
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element-show
+youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-endscreen-next.ytp-button
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
+youtube.com##.ytp-suggestion-set.ytp-upnext
+youtube.com##.ytp-watch-later-button.ytp-button
+youtube.com##BUTTON[title="W tym filmie"]
+youtube.com##DIV.iv-promo-img.iv-click-target
+youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 ! ====================
 ||127.0.^$third-party,important
 ||localhost^$third-party,important
@@ -508,64 +567,7 @@ www.wykop.pl##.fa-minus.fa
 www.wykop.pl##.fa-plus.fa
 www.wykop.pl##.wgt-meczyki
 www.x-kom.pl##.AYPkD.sc-45u958-0
-www.youtube.com###masthead-positioner-height-offset
-www.youtube.com###old-browser-alert
-www.youtube.com###watch7-content > span:nth-of-type(1)
-www.youtube.com##.hats-categorical-style-vertical
-www.youtube.com##.live-chat-expander.yt-uix-expander
-www.youtube.com##.mc_A
-www.youtube.com##.opened
 wyborcza.pl##.sidebar.grid-col-1-4.article-extra
-youtube.com###ma-cin-panel
-youtube.com###offer-module > .ytd-watch.style-scope
-youtube.com###watch-action-panels
-youtube.com##.__noscriptPlaceholder__1
-youtube.com##.annotation-type-text.annotation
-youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape
-youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(3)
-youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(5)
-youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(7)
-youtube.com##.annotation-type-text.annotation-speech-shape.annotation-shape
-youtube.com##.annotation.iv-branding
-youtube.com##.annotation.iv-promo
-youtube.com##.branding-img-container
-youtube.com##.html5-endscreen
-youtube.com##.html5-endscreen-content
-youtube.com##.iv-drawer
-youtube.com##.iv-drawer-content
-youtube.com##.iv-drawer-teaser-text
-youtube.com##.iv-promo
-youtube.com##.iv-promo-close
-youtube.com##.iv-promo-contents
-youtube.com##.iv-promo-txt.iv-click-target
-youtube.com##.iv-promo-video
-youtube.com##.subscribecard-endscreen
-youtube.com##.video-annotations
-youtube.com##.videowall-endscreen
-youtube.com##.yt-alert.yt-alert-default.yt-alert-warn
-youtube.com##.yt-uix-button.yt-uix-button-size-small.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.addto-button.video-actions.spf-nolink.hide-until-delayloaded.addto-watch-later-button-sign-in.yt-uix-tooltip
-youtube.com##.ytp-button.ytp-button-dislike
-youtube.com##.ytp-button.ytp-button-like
-youtube.com##.ytp-button.ytp-button-share
-youtube.com##.ytp-button.ytp-cards-button
-youtube.com##.ytp-button.ytp-share-button
-youtube.com##.ytp-cards-button-icon-default
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-cards-teaser-text
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-ce-element-show
-youtube.com##.ytp-endscreen-content
-youtube.com##.ytp-endscreen-next.ytp-button
-youtube.com##.ytp-pause-overlay
-youtube.com##.ytp-scroll-min.ytp-pause-overlay
-youtube.com##.ytp-show-tiles.ytp-endscreen-paginate.videowall-endscreen.ytp-player-content.html5-endscreen
-youtube.com##.ytp-suggestion-set.ytp-upnext
-youtube.com##.ytp-title-channel
-youtube.com##.ytp-watch-later-button.ytp-button
-youtube.com##BUTTON[title="W tym filmie"]
-youtube.com##DIV.iv-promo-img.iv-click-target
-youtube.com##ytd-consent-bump-lightbox.style-scope
-youtube.com##ytd-popup-container
 zaufanatrzeciastrona.pl###rab1
 zaufanatrzeciastrona.pl###sponsor3
 zaufanatrzeciastrona.pl##.dolna-ramka:nth-of-type(15)
